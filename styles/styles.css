@@ -1,0 +1,390 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+/* Section 1 CSS */
+#section1 {
+  position: relative;
+  bottom: 0rem;
+}
+
+.container-fluid {
+  padding: 0% 10%;
+
+}
+
+.nav {
+
+  font-size: 2rem;
+  font-family: 'Nerko One', cursive;
+  line-height: 1.5rem;
+  display: flex;
+  text-align: center;
+
+}
+
+
+
+
+
+.nav.navbar-nav.navbar-right li a {
+    color: #fc8621;
+}
+
+.nav-link {
+  color: #fc8621;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+      top: 0rem;
+      right: 0px;
+      min-width: 100%;
+      z-index: -1;
+
+}
+
+
+
+/* Add some content at the bottom of the video/page */
+.dancing {
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  color: #f1f1f1;
+  text-align: center;
+  padding-top: .3rem;
+}
+
+.logoImage {
+  position: relative;
+  opacity: 0.7;
+  margin: auto;
+  display: block;
+  width: 35%;
+  padding-top: 0rem;
+}
+
+.buttonsTop {
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: .6rem;
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff9401;
+    border-color: #ff9401;
+    margin-right: 2rem;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #fc8621;
+  border-color: #fc8621;
+}
+
+
+/* Section 2 CSS */
+
+#section2 {
+  font-family: 'Ribeye', cursive;
+  font-weight: bold;
+  color: #fff8c1;
+  text-align: center;
+  background-color: #fc8621;
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+
+
+/* Section 3 CSS */
+
+.cinni {
+
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  right: 1rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+
+/* Section 4 CSS */
+
+#section4 {
+  font-family: 'Ribeye', cursive;
+  font-weight: bold;
+  color: #fff8c1;
+  text-align: center;
+  background-color: #fc8621;
+  padding: 2rem 0;
+
+}
+
+/* Section 6 CSS */
+
+#section6 {
+  font-family: 'Ribeye', cursive;
+  font-weight: bold;
+  color: #fff8c1;
+  text-align: center;
+  background-color: #fc8621;
+  padding: 1rem;
+  position: relative;
+  bottom: 0rem;
+}
+
+
+/* Section 7 */
+.textRow {
+  position: absolute;
+  display: inline-block;
+  left: 2rem;
+  font-family: 'Ribeye', cursive;
+  font-weight: bold;
+  color: #fff8c1;
+  font-size: 2rem;
+
+}
+
+.cafe {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+
+  right: 1rem;
+}
+
+/* Section 8 */
+#section8 {font-family: 'Ribeye', cursive;
+font-weight: bold;
+color: #fff8c1;
+text-align: center;
+background-color: #fc8621;
+padding: 2rem 0;
+position: relative;
+bottom: 0rem;
+
+}
+
+
+/* Section 9 */
+.pimg1, .pimg2, .pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  /* this is the code for scroll, can change to scroll if you want */
+
+}
+
+
+.pimg1 {
+  background-image: url('../images/pimg1.jpg');
+  padding-top: 20rem;
+  padding-bottom: 15rem;
+
+}
+
+.pimg2 {
+  background-image: url('../images/pimg2.png');
+  min-height: 560px;
+}
+
+.pimg3 {
+  background-image: url('../images/pimg3.jpg');
+  min-height: 560px;
+}
+
+.section9a {
+  font-family: 'Ribeye', cursive;
+  font-weight: bold;
+  color: #fff8c1;
+  text-align: center;
+  background-color: #fc8621;
+  padding: 2rem 0 1rem;
+  position: relative;
+  bottom: 0rem;
+}
+
+.aesop{
+  text-align: right;
+  margin-right: 3rem;
+}
+
+.section9b {
+  font-family: 'Ribeye', cursive;
+  font-weight: bold;
+  color: #fff8c1;
+  text-align: center;
+  background-color: #fc8621;
+  padding: 3rem 0 2rem;
+  position: relative;
+  bottom: 0rem;
+
+}
+
+.section9c {
+  font-family: 'Ribeye', cursive;
+  font-weight: bold;
+  color: #fff8c1;
+  text-align: center;
+  background-color: #fc8621;
+  padding: 3rem 0 2rem;
+  position: relative;
+  bottom: 0rem;
+  line-height: .5rem;
+}
+
+.out {
+  padding-bottom: 1rem;
+}
+
+
+/* Section 10 */
+.chksan {
+  background-image: url('../images/chksan.jpg');
+  min-height: 560px;
+  min-width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.spread {
+  background-image: url('../images/spread.png');
+  min-height: 600px;
+  min-width: 100%;
+  padding-top: 20rem;
+  padding-bottom: 15rem;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.csr1 {
+  background-image: url('../images/csr1.png');
+  min-height: 600px;
+  min-width: 100%;
+  padding-top: 20rem;
+  padding-bottom: 15rem;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hey {
+  background-image: url('../images/hey.jpg');
+  min-height: 600px;
+  padding-top: 20rem;
+  padding-bottom: 15rem;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blt {
+  background-image: url('../images/blt.jpg');
+  min-height: 600px;
+  min-width: 100%;
+  padding-top: 20rem;
+  padding-bottom: 15rem;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.chksan, .spread, .csr1, .hey, .blt {
+  background-attachment: fixed;
+}
+
+
+/* Section 11 */
+#pricing {
+  font-family: 'Ribeye', cursive;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+  background-color: #fc8621;
+  padding: 50px;
+  position: relative;
+  bottom: 0rem;
+}
+
+.pricing-column {
+  padding: 4% 4%;
+}
+
+.chg {
+  font-family: 'Ribeye', cursive;
+  font-weight: bold;
+  color: #fff8c1;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.card {
+  background-color: #b9fffc;
+  color: #318FB5;
+  font-family: 'Nerko One', cursive;
+  font-weight: normal;
+}
+
+.card-header {
+  background-color: #81F5FF;
+  font-family: 'Nerko One', cursive;
+  font-weight: normal;
+}
+
+/* Section 12*/
+#footer {
+
+
+  text-align: center;
+  background-color: #b9fffc;
+  font-family: 'Ribeye';
+  color: #318FB5;
+
+}
+
+.logo {
+  width: 40%;
+  background-position: left;
+  position: relative;
+  bottom: -.6rem;
+}
+
+.social-icon {
+  margin: 2rem .5rem;
+}
+
+.copy {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 767px) {
+      .navbar-nav {
+         float: left !important;
+      }
+   }
